@@ -214,10 +214,13 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                <formaction="https://formsubmit.co/purvanshjoshi7534011576@gmail.com" method="POST" class="contact-form">
+                    <input type="text" placeholder="Your Name" name="name" required>
+                    <input type="email" placeholder="Your Email" name="email" required>
+                    <textarea placeholder="Your  name="message"Message" rows="5" required></textarea>
+                                    <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission!">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://purvanshjoshi.github.io/portfolio/#contact">
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
             </div>
