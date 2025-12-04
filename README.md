@@ -71,3 +71,7 @@ The portfolio features several key projects:
 - **Accessibility:** WCAG 2.1 AA compliant
 
 **Created by Purvansh Joshi** | CS Engineering Student | IEEE Student Branch Member
+
+## 📞 Get in Touch
+
+I'm always open to new opportunities and collaborations! Feel free to reach out through any of the channels above or visit my portfolio website.
