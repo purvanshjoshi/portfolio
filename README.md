@@ -75,3 +75,50 @@ The portfolio features several key projects:
 ## 📞 Get in Touch
 
 I'm always open to new opportunities and collaborations! Feel free to reach out through any of the channels above or visit my portfolio website.
+
+
+## 🚀 Getting Started
+
+To use this portfolio website locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/purvanshjoshi/portfolio.git
+cd portfolio
+
+# Open in browser
+open index.html
+# or for Linux:
+xdg-open index.html
+```
+
+## 📱 Browser Compatibility
+
+- Chrome (Latest)
+- Firefox (Latest)
+- Safari (Latest)
+- Edge (Latest)
+
+## 🎨 Design Highlights
+
+- **Responsive Layout**: Seamlessly adapts to desktop, tablet, and mobile screens
+- **Smooth Animations**: Engaging transitions and effects throughout
+- **Modern UI/UX**: Clean, professional design with dark theme
+- **Fast Loading**: Optimized assets and minimal dependencies
+
+## 📞 Get in Touch
+
+I'm always interested in connecting with fellow developers and exploring new opportunities:
+
+- **Email**: [purvanshjoshi7534011576@gmail.com](mailto:purvanshjoshi7534011576@gmail.com)
+- **LinkedIn**: [linkedin.com/in/purvansh-joshi](https://www.linkedin.com/in/purvansh-joshi)
+- **Instagram**: [@simply_purva01](https://www.instagram.com/simply_purva01)
+- **GitHub**: [@purvanshjoshi](https://github.com/purvanshjoshi)
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+**Made with ❤️ by Purvansh Joshi** | Last Updated: 2025
