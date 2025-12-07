@@ -1,4 +1,8 @@
 /* HIGH-TECH PORTFOLIO - MODERN UI/UX */
+
+/* Accessibility Improvements - Focus Styles for Keyboard Navigation */
+*:focus-visible { outline: 2px solid #8a2be2; outline-offset: 2px; } 
+a:focus-visible, button:focus-visible { outline: 2px solid #00d4ff; outline-offset: 2px; }
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap');
 
 :root{--primary:#00f0ff;--secondary:#ff00ff;--accent:#7000ff;--bg:#0a0a0f;--card:#1a1a2e;--text:#e8e8f0;--glass:rgba(255,255,255,0.05);--glow:0 0 20px rgb
