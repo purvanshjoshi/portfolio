@@ -1,5 +1,23 @@
 // HIGH-TECH PORTFOLIO - INTERACTIVE JAVASCRIPT
 
+// Performance Optimization: Lazy load animations and deferred script loading
+const lazyLoadElements = () => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('loaded');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  
+  document.querySelectorAll('.lazy-load').forEach(el => observer.observe(el));
+};
+
+if ('IntersectionObserver' in window) {
+  lazyLoadElements();
+}
+
 // Smooth Scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor=>{anchor.addEventListener('click',function(e){e.preventDefault();const target=document.querySelector(this.getAttribute('href'));if(target){target.scrollIntoView({behavior:'smooth',block:'start'})}})});
 
