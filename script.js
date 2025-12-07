@@ -18,6 +18,13 @@ if ('IntersectionObserver' in window) {
   lazyLoadElements();
 }
 
+// Initialize lazy loading on DOM ready for better performance
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', lazyLoadElements);
+} else {
+  lazyLoadElements();
+}
+
 // Smooth Scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor=>{anchor.addEventListener('click',function(e){e.preventDefault();const target=document.querySelector(this.getAttribute('href'));if(target){target.scrollIntoView({behavior:'smooth',block:'start'})}})});
 
