@@ -151,4 +151,4 @@ This project is open source and available under the MIT License.
 
 Made with ❤️ by Purvansh Joshi | Last Updated: December 7, 2025
 
-**Made with ❤️ by Purvansh Joshi** | Last Updated: 2025
+**Made with ❤️ by Purvansh Joshi** | Last Updated: 2025.
