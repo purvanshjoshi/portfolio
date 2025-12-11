@@ -157,3 +157,27 @@ window.addEventListener('load', () => {
 
 // Log portfolio loaded
 console.log('%cPortfolio Loaded Successfully', 'color: #00f0ff; font-size: 16px; font-weight: bold;');
+
+// Multilingual Greeting Animation
+const greetings = {
+    'en': 'Hey there, Im',
+    'es': 'Hola, soy',
+  'fr': 'Salut, je suis',
+  'de': 'Hallo, ich bin',
+  'ja': 'Konnichiwa, watashi wa',
+  'hi': 'Namaste, main hoon',
+  'pt': 'Ola, sou'
+};
+
+let greetingIndex = 0;
+const greetingKeys = Object.keys(greetings);
+
+// Auto-rotate greetings every 4 seconds
+setInterval(() => {
+    greetingIndex = (greetingIndex + 1) % greetingKeys.length;
+    const currentLang = greetingKeys[greetingIndex];
+    const heroH1 = document.querySelector('.hero-title');
+    if (heroH1) heroH1.innerHTML = greetings[currentLang] + ' <span class="highlight">Purvansh Joshi</span>';
+  }, 4000);
+
+console.log('🌍 Multilingual Greetings Activated! The hero greeting changes every 4 seconds through different languages');
